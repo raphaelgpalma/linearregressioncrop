@@ -1,18 +1,16 @@
-# CropLinearPredictor
-Linear regression model
+# Regressao linear para prever safras
+Modelo de Regressão Linear
 
+A regressão linear é um método estatístico usado para modelar a relação entre uma variável dependente (neste caso, rendimento das culturas) e uma ou mais variáveis independentes (conhecidas como preditores), com o objetivo de fazer previsões. Um modelo de regressão linear baseado em previsão de culturas utiliza dados históricos de rendimentos anteriores, juntamente com variáveis independentes relevantes, para estimar rendimentos futuros das culturas.
 
+O modelo de regressão linear é baseado em uma equação matemática que representa uma reta que melhor se ajusta aos dados históricos disponíveis. A equação é geralmente expressa da seguinte forma:
 
-Linear regression is a statistical method used to model the relationship between a dependent variable (in this case, crop yield) and one or more independent variables (known as predictors), with the goal of making predictions. A crop prediction-based linear regression model uses historical data of previous crop yields, along with relevant independent variables, to estimate future crop yields.
+Rendimento da cultura = Intercepto + Coeficiente1 * Preditivo1 + Coeficiente2 * Preditivo2 + ... + CoeficienteN * PreditivoN
 
-The linear regression model is based on a mathematical equation that represents a straight line that best fits the available historical data. The equation is usually expressed as follows:
+Nessa equação, o Intercepto representa o valor esperado do rendimento da cultura quando todas as variáveis independentes são iguais a zero. Os Coeficientes (Coeficiente1, Coeficiente2, ..., CoeficienteN) representam a magnitude da influência de cada preditor específico (Preditivo1, Preditivo2, ..., PreditivoN) na variável dependente (rendimento da cultura).
 
-Crop yield = Intercept + Coefficient1 * Predictor1 + Coefficient2 * Predictor2 + ... + CoefficientN * PredictorN
+O objetivo do modelo é estimar os melhores valores para os Coeficientes, de forma que a equação de regressão linear represente a relação mais precisa entre os dados históricos e os rendimentos futuros das culturas. Isso é feito utilizando técnicas estatísticas para minimizar a diferença entre os valores observados dos rendimentos históricos das culturas e os valores estimados pelo modelo.
 
-In this equation, the Intercept represents the expected value of crop yield when all the independent variables are equal to zero. The Coefficients (Coefficient1, Coefficient2, ..., CoefficientN) represent the magnitude of the influence of each specific predictor (Predictor1, Predictor2, ..., PredictorN) on the dependent variable (crop yield).
+Uma vez que o modelo de regressão linear é treinado com dados históricos, ele pode ser usado para fazer previsões de rendimentos futuros das culturas com base nos valores das variáveis independentes fornecidas. As previsões são calculadas substituindo os valores das variáveis independentes na equação de regressão linear e estimando o valor do rendimento da cultura.
 
-The goal of the model is to estimate the best values for the Coefficients so that the linear regression equation represents the most accurate relationship between the historical data and future crop yields. This is done using statistical techniques to minimize the difference between the observed values of historical crop yields and the values estimated by the model.
-
-Once the linear regression model is trained with historical data, it can be used to make predictions of future crop yields based on the values of the independent variables provided. Predictions are calculated by substituting the values of the independent variables into the linear regression equation and estimating the value of crop yield.
-
-It's important to note that a crop prediction-based linear regression model assumes that the relationship between the independent variables and crop yield is linear, meaning it can be represented by a straight line. Additionally, the quality of historical data, appropriate selection of independent variables, and model validation should be considered to ensure that the predictions are reliable and accurate.
+É importante observar que um modelo de regressão linear baseado em previsão de culturas pressupõe que a relação entre as variáveis independentes e o rendimento das culturas é linear, ou seja, pode ser representada por uma reta. Além disso, a qualidade dos dados históricos, a seleção apropriada das variáveis independentes e a validação do modelo devem ser consideradas para garantir que as previsões sejam confiáveis e precisas.
