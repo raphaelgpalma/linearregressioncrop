@@ -1,4 +1,4 @@
-# Regressao Linear com intuito de previsao safras 
+# Regressao Linear para previsao de safras 
 Modelo de Regressão Linear
 
 A regressão linear é um método estatístico usado para modelar a relação entre uma variável dependente (neste caso, rendimento das culturas) e uma ou mais variáveis independentes (conhecidas como preditores), com o objetivo de fazer previsões. Um modelo de regressão linear baseado em previsão de culturas utiliza dados históricos de rendimentos anteriores, juntamente com variáveis independentes relevantes, para estimar rendimentos futuros das culturas.
